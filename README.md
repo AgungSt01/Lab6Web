@@ -2,7 +2,7 @@
 ### Membuat Layout dengan Bootstrap
 Berikut syntax dan hasilnya
 ![Gambar 1](screenshoot/ss1.png)
-![Gambar 2](screenshoot/ss01.png
+![Gambar 2](screenshoot/ss01.png)
 ### Membuat Navigasi
 Langkah berikut nya dalam praktikum ini adalah mengatur navigasi, dengan syntax dan hasil sebagai berikut :
 ![Gambar 3](screenshoot/ss2.png)
