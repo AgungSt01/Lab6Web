@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana Menggunakan bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+  <div id="container">
+  <header>
+    <h1>Layout Sederhana</h1>
+  </header>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-2">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Artikel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="card" style="width: 100;">
+        <div class="container">
+          <h5 class="card-title">Hello word</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum lorem elit, iaculis innisl volutpat, malesuada tincidunt arcu. 
+            Proin in leo fringilla, vestibulum mi porta, faucibus felis. 
+            Integer pharetra est nunc, nec pretium nuncpretium ac..</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+            <div class="row">
+              <div class="col col-lg-3 py-3">
+                <img src="https://dummyimage.com/120/db7d25/fff.png" alt=""class="mh-100 rounded-circle d-flex justify-content-center text-center align-items-center"
+                style="
+                  width: 150px;
+                  height: 150px;
+                ">
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. 
+                  Etiam porta sem malesuada magna mollis
+                  euismod.</p>
+                <a href="#" class="btn btn-primary">view details</a>
+              </div>
+              <div class="col col-lg-3 py-3">
+                <img src="https://dummyimage.com/120/db7d25/fff.png" alt=""class="mh-100 rounded-circle d-flex justify-content-center text-center align-items-center"
+                style="
+                  width: 150px;
+                  height: 150px;
+                ">
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. 
+                  Etiam porta sem malesuada magna mollis
+                  euismod.</p>
+                <a href="#" class="btn btn-primary">view details</a>
+              </div>
+              <div class="col col-lg-3 py-3">
+                <img src="https://dummyimage.com/120/db7d25/fff.png" alt=""class="mh-100 rounded-circle d-flex justify-content-center text-center align-items-center"
+                style="
+                  width: 150px;
+                  height: 150px;
+                ">
+                <h3>Heading</h3>
+                <p>Donec sed odio dui. 
+                  Etiam porta sem malesuada magna mollis
+                  euismod.</p>
+                <a href="#" class="btn btn-primary">view details</a>
+              </div>
+              <div class="col col-lg-3 py-3">
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                    <h5 class="title">Widget Header</h5>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                  <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                  <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                  <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                </div>
+                <div class="list-group" class="p2">
+                  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                    <h5 class="title">Widget Text</h5>
+                    <a href="#" class="list-group-item list-group-item-action">Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+                      arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+                      haretra est nunc, nec pretium nunc pretium a</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-8 col-sm-12"><h2>First featurette heading.</h2></div>
+          <picture>
+            <source srcset="https://dummyimage.com/150/7b8a70/fff.png" type="image/svg+xml">
+            <img src="https://dummyimage.com/150/7b8a70/fff.png" class="img-fluid img-thumbnail" alt="">
+          </picture>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+          elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+          vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+          pretium ac.</p>
+    </div>
+    <div>
+        <div class="row">
+          <div class="col-8 col-sm-12"><h2>First featurette heading.</h2></div>
+          <picture class="container text-lg-end">
+            <source srcset="https://dummyimage.com/150/7b8a70/fff.png" type="image/svg+xml">
+            <img src="https://dummyimage.com/150/7b8a70/fff.png" class="img-fluid img-thumbnail" alt="">
+          </picture>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+          elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+          vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+          pretium ac.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </div>
+  <footer class="bg-dark text-white">
+    <p class="p-2 text-left">&copy;2021 - Universitas Pelita Bangsa
+  </footer>
+</body>
+</html>
